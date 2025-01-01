@@ -1,33 +1,33 @@
 # CipheroAi Discord Bot
 
-CipheroAi to bot Discord, który umożliwia zadawanie pytań AI oraz sprawdzanie opóźnienia bota.
+CipheroAi is a Discord bot that allows users to ask AI questions and check the bot's latency.
 
-## 🚀 Wymagania
+## 🚀 Requirements
 
-- **Node.js** v16 lub nowszy
-- Konto Discord oraz utworzony bot Discord
-- Klucz API GLHF
+- **Node.js** v16 or newer
+- A Discord account with a created bot
+- GLHF API key
 
 ---
 
-## 📥 Instalacja
+## 📥 Installation
 
-1. **Sklonuj repozytorium:**
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/yourusername/CipheroAi.git
    cd CipheroAi
    ```
 
-2. **Zainstaluj zależności:**
+2. **Install dependencies:**
 
    ```bash
    npm install
    ```
 
-3. **Skonfiguruj zmienne środowiskowe:**
+3. **Configure environment variables:**
 
-   Utwórz plik `.env` w katalogu głównym projektu i dodaj swoje tokeny oraz klucze API:
+   Create a `.env` file in the project's root directory and add your tokens and API keys:
 
    ```env
    DISCORD_TOKEN=your_discord_token
@@ -37,7 +37,7 @@ CipheroAi to bot Discord, który umożliwia zadawanie pytań AI oraz sprawdzanie
    DISCORD_CLIENT_ID=your_discord_client_id
    ```
 
-4. **Uruchom bota:**
+4. **Run the bot:**
 
    ```bash
    npm run dev
@@ -45,44 +45,50 @@ CipheroAi to bot Discord, który umożliwia zadawanie pytań AI oraz sprawdzanie
 
 ---
 
-## 📚 Użycie
+## 📚 Usage
 
-Bot obsługuje następujące komendy:
+The bot supports the following commands:
 
-- `/ask pytanie:` Zadaj pytanie AI.
-- `/ping:` Sprawdź, czy bot odpowiada.
+- `/ask question:` Ask a question to the AI.
+- `/ping:` Check if the bot is responsive.
 
 ---
 
-## 🗂️ Struktura projektu
+## 🗂️ Project Structure
 
 ```
 CipheroAi/
 ├── src/
-│   ├── index.ts          # Główny plik uruchamiający bota
+│   ├── index.ts          # Main bot entry point
 │   ├── commands/
-│   │   ├── ask.ts       # Implementacja komendy /ask
-│   │   ├── ping.ts      # Implementacja komendy /ping
+│   │   ├── ask.ts       # Implementation of /ask command
+│   │   ├── ping.ts      # Implementation of /ping command
 │   ├── register/
-│   │   ├── registerCommands.ts # Rejestracja komend
-├── .env                 # Zmienne środowiskowe
-├── package.json         # Konfiguracja Node.js
-└── tsconfig.json        # Konfiguracja TypeScript
+│   │   ├── registerCommands.ts # Command registration
+├── .env                 # Environment variables
+├── package.json         # Node.js configuration
+└── tsconfig.json        # TypeScript configuration
 ```
 
 ---
 
-## 🔒 Bezpieczeństwo
+## 🔒 Security
 
-- Nigdy nie udostępniaj tokenu bota publicznie.
-- Dodaj plik `.env` do `.gitignore`.
-- Przyznaj botowi tylko te uprawnienia, które są niezbędne do jego działania.
-- Monitoruj aktywność bota i loguj wszystkie interakcje.
+- Never share your bot token publicly.
+- Add the `.env` file to `.gitignore`.
+- Grant the bot only the permissions it needs to function.
+- Monitor bot activity and log all interactions.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
-## 📜 Licencja
+## 🤝 Contributing
 
-Ten projekt jest licencjonowany na warunkach licencji **MIT**. Zobacz plik [LICENSE](LICENSE) po więcej informacji.
+Want to help improve CipheroAi? Feel free to open issues, suggest features, and submit pull requests on GitHub!
 
----
+**Build a smarter future with CipheroAi! 🤖✨**
