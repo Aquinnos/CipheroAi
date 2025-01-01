@@ -87,8 +87,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-## 🤝 Contributing
-
-Want to help improve CipheroAi? Feel free to open issues, suggest features, and submit pull requests on GitHub!
-
 **Build a smarter future with CipheroAi! 🤖✨**
