@@ -1,6 +1,6 @@
 # CipheroAi Discord Bot
 
-CipheroAi is a Discord bot made **4fun** that allows users to ask AI questions and check the bot's latency. It utilizes the **GLHF API (Beta Version)**, which is currently **free to use**.
+CipheroAi is a Discord bot made **4fun** that allows users to ask AI questions. It utilizes the **GLHF API (Beta Version)**, which is currently **free to use**.
 
 ## 🚀 Requirements
 
