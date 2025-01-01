@@ -86,5 +86,3 @@ CipheroAi/
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-**Build a smarter future with CipheroAi! 🤖✨**
